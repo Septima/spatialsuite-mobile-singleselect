@@ -31,8 +31,9 @@ a single datasource
 
 ## 3. Installation
 
-###NOTE: Never change the mobile-singleselect module. Instead, create a custom module with changes only.
-         The module is based on the "mobile" module for Spatial Map 2.10 but will probably work with older version.
+NOTE: 
+Never change the mobile-singleselect module. Instead, create a custom module with changes only.
+The module is based on the "mobile" module for Spatial Map 2.10 but will probably work with older version.
 
 
 ### 3.a Get s4 module:
@@ -49,7 +50,7 @@ Latest version is always located at:
 ```xml
      <sql command="mobile-search" keepunresolved="false">SELECT skoleid as displayname, wkb_geometry as shape_wkt FROM skoler WHERE skoleid like [string:'%'+searchstring+'%'] limit [number: toNumber(limit)]</sql>
 ```
-        It is important that the select returns "displayname" and "shape_wkt"!
+It is important that the select returns "displayname" and "shape_wkt"!
 
 ### 3.d To show a profile on a mobile device, use a URL like this:
         http://HOST/cbkort?page=mobile-content-singleselect&profile=XXXXX&datasource=YYYYYY
