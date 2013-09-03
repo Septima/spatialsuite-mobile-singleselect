@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+    <page name="mobile-content-singleselect" contenttype="text/html">
+        <stylesheet>[module:mobile-singleselect.dir]/xsl/main.xsl</stylesheet>
+        <data handler="profile" operation="get-clientinfo"/>
+    </page>
+
+    <page name="mobile-content-singleselect.search" contenttype="text/xml">
+        <data handler="datasource" operation="execute-command">
+            <url-parameters>
+                <url-parameter name="command" value="mobile-search"/>
+            </url-parameters>
+        </data>
+    </page>
+
+</pages>

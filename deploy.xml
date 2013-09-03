@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy>
+
+  <version>1.0.0</version> 
+
+  <param name="module.mobile-singleselect.js">/modules/mobile-singleselect/js/mobile.js</param>
+  <makedir dir="[cbinfo.wwwroot.dir]/modules/mobile-singleselect/js"/>
+  <copyfile fromfile="[module:mobile-singleselect.dir]/js/mobile.js" tofile="[cbinfo.wwwroot.dir][module.mobile-singleselect.js]"/>
+
+</deploy>
