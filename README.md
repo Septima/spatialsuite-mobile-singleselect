@@ -24,8 +24,8 @@ a single datasource
               evaluation purposes free of charge.
               
  Contact:     Septima P/S  
-              Larsbjørnsstræde 3  
-              1454 København K  
+              Frederiksberggade 28, 2.tv.  
+              1459 København K  
               www.septima.dk  
               kontakt@septima.dk  
 
@@ -33,7 +33,7 @@ a single datasource
 
 NOTE: 
 Never change the mobile-singleselect module. Instead, create a custom module with changes only.
-The module is based on the "mobile" module for Spatial Map 2.10 but will probably work with older version.
+The module is based on the "mobile" module for Spatial Map 2.10 but will probably work with older and newer versions.
 
 
 ### 3.a Get mobile-singleselect module:
